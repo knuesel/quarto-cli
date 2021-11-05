@@ -64,6 +64,9 @@ export function revealPluginExtras(format: Format, revealDir: string) {
       plugin: formatResourcePath("revealjs", join("plugins", "line-highlight")),
     },
     { plugin: formatResourcePath("revealjs", join("plugins", "a11y")) },
+    {
+      plugin: formatResourcePath("revealjs", join("plugins", "leaflet-compat")),
+    },
   ];
 
   // tone plugin (optional)
